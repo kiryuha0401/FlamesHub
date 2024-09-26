@@ -5,6 +5,7 @@ while wait() do
 				local s 
 			else
 				v:WaitForChild("HumanoidRootPart").Size = Vector3.new(50,50,50)
+				v:WaitForChild("HumanoidRootPart").CanCollide = false
 			end
 		end
 	end
